@@ -53,9 +53,27 @@ async function FetvaList() {
   );
 }
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Orucu Bozar Mı?",
+  url: "https://orucubozarmi.com",
+  description:
+    "Diyanet fetvalarına göre orucu bozan ve bozmayan durumları öğrenin.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://orucubozarmi.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center px-4 py-12 sm:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <div className="text-center mb-10">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
           Orucu Bozar Mı?

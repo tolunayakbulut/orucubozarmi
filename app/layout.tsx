@@ -53,12 +53,22 @@ export default function RootLayout({
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-gray-100 bg-white mt-auto">
-          <div className="max-w-3xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
-            <p>
-              Bu site Diyanet fetvalarına dayalı bilgi sunmaktadır.
-              Dini konularda kesin hüküm için müftülüğe danışınız.
-            </p>
-            <p className="mt-1">
+          <div className="max-w-3xl mx-auto px-4 py-8 text-center">
+            <div className="mb-4 p-4 bg-amber-50 border border-amber-200 rounded-xl">
+              <p className="text-xs text-amber-800 font-semibold mb-1">
+                Yasal Uyarı
+              </p>
+              <p className="text-xs text-amber-700 leading-relaxed">
+                Bu sitede yer alan bilgiler yalnızca genel bilgilendirme amaçlıdır ve
+                herhangi bir dini fetva niteliği taşımaz. Sunulan içerikler Diyanet İşleri
+                Başkanlığı&apos;nın kamuya açık kaynaklarından derlenmiş olup, bağlayıcı
+                dini hüküm yerine geçmez. Dini konularda kesin ve kişiye özel hüküm için
+                Diyanet İşleri Başkanlığı&apos;na, il/ilçe müftülüklerine veya yetkili din
+                alimlerine başvurmanız önerilir. Site yönetimi, buradaki bilgilere dayanılarak
+                yapılan uygulamalardan doğabilecek sonuçlardan sorumluluk kabul etmez.
+              </p>
+            </div>
+            <p className="text-sm text-gray-500">
               &copy; {new Date().getFullYear()} orucubozarmi.com
             </p>
           </div>

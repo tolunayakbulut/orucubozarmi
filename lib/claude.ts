@@ -79,6 +79,7 @@ Here are the valid category codes:
 - disariya_tukurmek
 - aglamak
 - opusmek_opmek
+- dedikodu_yapmak
 
 Important disambiguation rules:
 - opusmek_opmek: öpmek, öpüşmek, dudak dudağa, eşini öpmek, sevişmek (without intercourse)

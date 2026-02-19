@@ -846,6 +846,18 @@ const SEED_DATA = [
     seo_description:
       "Öpüşmek orucu bozar mı? Eşini öpmek tek başına orucu bozmaz ancak dikkat edilmelidir.",
   },
+  {
+    slug: "dedikodu-yapmak-orucu-bozar-mi",
+    kategori_kodu: "dedikodu_yapmak",
+    baslik: "Dedikodu Yapmak (Gıybet) Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Dedikodu (gıybet) yapmak orucu fıkhi olarak bozmaz, yani kaza veya keffaret gerektirmez. Ancak orucun sevabını büyük ölçüde azaltır. Hz. Peygamber (s.a.v.) 'Nice oruç tutanlar vardır ki, oruçlarından kendilerine kalan sadece açlık ve susuzluktur' buyurmuştur. Gıybet, yalan, iftira ve kötü söz söylemek orucu manevi olarak zedeler. Oruç sadece yeme-içmeden değil, kötü söz ve davranışlardan da uzak durmaktır.",
+    kaynak_url: KAYNAK.mahiyet,
+    seo_title: "Dedikodu Yapmak (Gıybet) Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Dedikodu yapmak orucu bozar mı? Gıybet orucu fıkhen bozmaz ancak sevabını büyük ölçüde azaltır.",
+  },
 ];
 
 async function seed() {

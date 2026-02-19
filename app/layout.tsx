@@ -27,6 +27,12 @@ export const metadata: Metadata = {
     description:
       "Diyanet fetvalarına göre orucu bozan ve bozmayan durumları öğrenin.",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Orucu Bozar Mı? - Oruç Hükümleri Sorgulama",
+    description:
+      "Diyanet fetvalarına göre orucu bozan ve bozmayan durumları öğrenin.",
+  },
   robots: {
     index: true,
     follow: true,

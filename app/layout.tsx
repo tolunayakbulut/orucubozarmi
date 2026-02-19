@@ -75,7 +75,15 @@ export default function RootLayout({
               </p>
             </div>
             <p className="text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} orucubozarmi.com
+              &copy; {new Date().getFullYear()}{" "}
+              <a
+                href="https://tolunayakbulut.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-emerald-600 transition-colors"
+              >
+                tolunayakbulut.com
+              </a>
             </p>
           </div>
         </footer>

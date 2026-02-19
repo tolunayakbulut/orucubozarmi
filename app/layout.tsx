@@ -1,0 +1,68 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Orucu Bozar Mı? - Oruç Hükümleri Sorgulama",
+    template: "%s | Orucu Bozar Mı?",
+  },
+  description:
+    "Diyanet fetvalarına göre orucu bozan ve bozmayan durumları öğrenin. Oruçla ilgili tüm sorularınızın cevabı burada.",
+  keywords: [
+    "oruç",
+    "orucu bozar mı",
+    "oruç bozan durumlar",
+    "ramazan",
+    "diyanet fetva",
+    "oruç hükümleri",
+  ],
+  metadataBase: new URL("https://orucubozarmi.com"),
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    url: "https://orucubozarmi.com",
+    siteName: "Orucu Bozar Mı?",
+    title: "Orucu Bozar Mı? - Oruç Hükümleri Sorgulama",
+    description:
+      "Diyanet fetvalarına göre orucu bozan ve bozmayan durumları öğrenin.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://orucubozarmi.com",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="tr">
+      <body className="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col">
+        <header className="w-full border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+          <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-center">
+            <a href="/" className="text-xl font-bold text-emerald-700 tracking-tight">
+              Orucu Bozar Mı?
+            </a>
+          </div>
+        </header>
+        <main className="flex-1">{children}</main>
+        <footer className="border-t border-gray-100 bg-white mt-auto">
+          <div className="max-w-3xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
+            <p>
+              Bu site Diyanet fetvalarına dayalı bilgi sunmaktadır.
+              Dini konularda kesin hüküm için müftülüğe danışınız.
+            </p>
+            <p className="mt-1">
+              &copy; {new Date().getFullYear()} orucubozarmi.com
+            </p>
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}

@@ -83,7 +83,7 @@ export default function ResultCard({ result }: ResultCardProps) {
             rel="noopener noreferrer"
             className="text-sm text-emerald-700 underline hover:text-emerald-900 transition-colors"
           >
-            Kaynak: Diyanet
+            Kaynak: Diyanet Din İşleri Yüksek Kurulu
           </a>
         )}
         {"slug" in result && result.slug && (

@@ -43,6 +43,42 @@ Here are the valid category codes:
 - ruya_gorme
 - unutarak_yemek
 - misir_patlatmak
+- astim_spreyi
+- dis_cektirmek
+- kanal_tedavisi
+- dis_beyazlatma
+- nargile
+- elektronik_sigara
+- yemek_tadina_bakmak
+- misvak_kullanmak
+- gargara
+- balgam_yutmak
+- burun_kanamasi
+- krem_surmek
+- kolonya_surmek
+- surme_cekmek
+- emzirmek
+- hamilelik
+- asi_olmak
+- insulin_ignesi
+- fitil_kullanmak
+- dil_alti_sprey
+- oksijen_maskesi
+- kan_sekeri_olcmek
+- mr_rontgen
+- tomografi
+- ameliyat_olmak
+- anestezi
+- goz_ameliyati
+- kulak_temizleme
+- alerji_testi
+- terleme
+- agiz_kokusu_spreyi
+- orucu_erken_acmak
+- sahura_kalkmamak
+- disariya_tukurmek
+- aglamak
+- kus_yuzu_opmek
 
 Return only the category code. Nothing else. No explanation.
 

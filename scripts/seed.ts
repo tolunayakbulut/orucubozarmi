@@ -414,6 +414,438 @@ const SEED_DATA = [
     seo_description:
       "Mısır patlatmak orucu bozar mı? Patlamış mısır yemek orucu bozar.",
   },
+  {
+    slug: "astim-spreyi-orucu-bozar-mi",
+    kategori_kodu: "astim_spreyi",
+    baslik: "Astım Spreyi (İnhaler) Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Astım spreyi kullanmanın orucu bozup bozmadığı konusunda farklı görüşler vardır. Diyanet İşleri Başkanlığı'na göre astım spreyi orucu bozar, çünkü ilaç akciğerlere ulaşmaktadır. Ancak bazı alimler, spreyin gıda niteliğinde olmadığını belirterek orucu bozmayacağı görüşündedir. Hayati zorunluluk halinde sağlık önceliklidir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Astım Spreyi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Astım spreyi (inhaler) orucu bozar mı? Bu konuda farklı görüşler bulunmaktadır.",
+  },
+  {
+    slug: "dis-cektirmek-orucu-bozar-mi",
+    kategori_kodu: "dis_cektirmek",
+    baslik: "Diş Çektirmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Diş çektirmek orucu bozmaz. Ancak işlem sırasında kan veya başka bir maddenin yutulmamasına dikkat edilmelidir. Yutulması halinde oruç bozulur. Lokal anestezi de orucu bozmaz.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Diş Çektirmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Diş çektirmek orucu bozar mı? Yutmamak kaydıyla diş çektirmek orucu bozmaz.",
+  },
+  {
+    slug: "kanal-tedavisi-orucu-bozar-mi",
+    kategori_kodu: "kanal_tedavisi",
+    baslik: "Kanal Tedavisi Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Kanal tedavisi yaptırmak orucu bozmaz. Ancak tedavi sırasında kullanılan ilaç veya suyu yutmamaya dikkat edilmelidir. Boğaza kaçırılması halinde oruç bozulur.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Kanal Tedavisi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Kanal tedavisi orucu bozar mı? Yutmamak kaydıyla kanal tedavisi orucu bozmaz.",
+  },
+  {
+    slug: "dis-beyazlatma-orucu-bozar-mi",
+    kategori_kodu: "dis_beyazlatma",
+    baslik: "Diş Beyazlatma Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Diş beyazlatma işlemi orucu bozmaz. Ancak işlem sırasında kullanılan kimyasal maddelerin yutulmaması gerekir. Boğaza kaçması halinde oruç bozulur.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Diş Beyazlatma Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Diş beyazlatma orucu bozar mı? Yutmamak kaydıyla diş beyazlatma orucu bozmaz.",
+  },
+  {
+    slug: "nargile-icmek-orucu-bozar-mi",
+    kategori_kodu: "nargile",
+    baslik: "Nargile İçmek Orucu Bozar Mı?",
+    hukum: "bozar",
+    aciklama:
+      "Nargile içmek orucu bozar. Tıpkı sigara gibi, nargile dumanının ciğerlere çekilmesi vücuda madde girişi anlamına gelir. Ayrıca nargile suyunun buharı da mideye ulaşır. Orucu bozar ve keffaret gerektirir.",
+    kaynak_url: KAYNAK.keffaret,
+    seo_title: "Nargile İçmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Nargile içmek orucu bozar mı? Nargile içmek orucu bozar ve keffaret gerektirir.",
+  },
+  {
+    slug: "elektronik-sigara-orucu-bozar-mi",
+    kategori_kodu: "elektronik_sigara",
+    baslik: "Elektronik Sigara Orucu Bozar Mı?",
+    hukum: "bozar",
+    aciklama:
+      "Elektronik sigara (vape) kullanmak orucu bozar. E-sigara buharı nikotin ve çeşitli kimyasallar içerir, bunların ciğerlere çekilmesi vücuda madde girişi sağlar. Normal sigara ile aynı hükme tabidir.",
+    kaynak_url: KAYNAK.keffaret,
+    seo_title: "Elektronik Sigara Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Elektronik sigara (vape) orucu bozar mı? E-sigara kullanmak orucu bozar.",
+  },
+  {
+    slug: "yemek-tadina-bakmak-orucu-bozar-mi",
+    kategori_kodu: "yemek_tadina_bakmak",
+    baslik: "Yemek Tadına Bakmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Yemeğin tadına bakmak, yutmamak kaydıyla orucu bozmaz. Dilin ucuyla tat alıp tükürmek caizdir. Ancak bu işlem sırasında herhangi bir şey yutulursa oruç bozulur. Zorunlu olmadıkça yapılmaması tavsiye edilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Yemek Tadına Bakmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Yemek tadına bakmak orucu bozar mı? Yutmamak kaydıyla yemek tadına bakmak orucu bozmaz.",
+  },
+  {
+    slug: "misvak-kullanmak-orucu-bozar-mi",
+    kategori_kodu: "misvak_kullanmak",
+    baslik: "Misvak Kullanmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Misvak kullanmak orucu bozmaz. Hz. Peygamber (s.a.v.) oruçluyken de misvak kullanmıştır. Misvaktan kopan parçaların yutulmamasına dikkat edilmelidir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Misvak Kullanmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Misvak kullanmak orucu bozar mı? Misvak kullanmak orucu bozmaz.",
+  },
+  {
+    slug: "gargara-yapmak-orucu-bozar-mi",
+    kategori_kodu: "gargara",
+    baslik: "Gargara Yapmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Ağız gargarası yapmak, yutmamak kaydıyla orucu bozmaz. Gargara suyunun boğaza kaçırılmamasına dikkat edilmelidir. Yutulması halinde oruç bozulur. Zorunlu olmadıkça iftar sonrasına bırakılması önerilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Gargara Yapmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Gargara yapmak orucu bozar mı? Yutmamak kaydıyla gargara orucu bozmaz.",
+  },
+  {
+    slug: "balgam-yutmak-orucu-bozar-mi",
+    kategori_kodu: "balgam_yutmak",
+    baslik: "Balgam Yutmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Boğazdan gelen balgamı yutmak, ağız boşluğuna gelmediği sürece orucu bozmaz. Ancak ağız boşluğuna gelmiş balgamın yutulması mekruhtur. Mümkünse tükürülmesi tavsiye edilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Balgam Yutmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Balgam yutmak orucu bozar mı? Boğazdaki balgamı yutmak orucu bozmaz.",
+  },
+  {
+    slug: "burun-kanamasi-orucu-bozar-mi",
+    kategori_kodu: "burun_kanamasi",
+    baslik: "Burun Kanaması Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Burun kanaması orucu bozmaz. Burun kanaması istemsiz olarak gerçekleşen bir durumdur. Ancak kanın boğaza akarak yutulması halinde oruç bozulabilir. Kanı yutmamaya dikkat edilmelidir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Burun Kanaması Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Burun kanaması orucu bozar mı? Burun kanaması orucu bozmaz.",
+  },
+  {
+    slug: "krem-surmek-orucu-bozar-mi",
+    kategori_kodu: "krem_surmek",
+    baslik: "Krem Sürmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Cilde krem, losyon veya merhem sürmek orucu bozmaz. Cilde sürülen maddeler sindirim sistemine girmediğinden orucu etkilemez. Güneş kremi, nemlendirici ve tedavi amaçlı kremler de aynı hükme tabidir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Krem Sürmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Krem sürmek orucu bozar mı? Cilde krem sürmek orucu bozmaz.",
+  },
+  {
+    slug: "kolonya-surmek-orucu-bozar-mi",
+    kategori_kodu: "kolonya_surmek",
+    baslik: "Kolonya Sürmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Kolonya sürmek orucu bozmaz. Cilde sürülen kolonya sindirim sistemine girmediğinden orucu etkilemez. Ancak kolonyayı bilerek içmek veya koklamak için derince nefes almak uygun değildir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Kolonya Sürmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Kolonya sürmek orucu bozar mı? Kolonya sürmek orucu bozmaz.",
+  },
+  {
+    slug: "surme-cekmek-orucu-bozar-mi",
+    kategori_kodu: "surme_cekmek",
+    baslik: "Sürme Çekmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Göze sürme çekmek orucu bozmaz. Göze sürülen madde sindirim sistemine ulaşmadığından orucu etkilemez. Hz. Peygamber (s.a.v.) döneminde de oruçluyken sürme kullanılmıştır.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Sürme Çekmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Sürme çekmek orucu bozar mı? Göze sürme çekmek orucu bozmaz.",
+  },
+  {
+    slug: "emzirmek-orucu-bozar-mi",
+    kategori_kodu: "emzirmek",
+    baslik: "Emzirmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Bebek emzirmek annenin orucunu bozmaz. Emzirmek vücuttan madde çıkışıdır, giriş değildir. Ancak emziren anne oruç tutmakta zorlanıyorsa veya süt azalıyorsa, oruç tutmamak için ruhsat vardır. Tutamadığı oruçları daha sonra kaza eder.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Emzirmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Emzirmek orucu bozar mı? Bebek emzirmek annenin orucunu bozmaz.",
+  },
+  {
+    slug: "hamilelikte-oruc-tutmak",
+    kategori_kodu: "hamilelik",
+    baslik: "Hamilelikte Oruç Tutmak Gerekir Mi?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Hamile kadınlar, kendilerine veya bebeklerine zarar gelme endişesi taşıyorlarsa oruç tutmayabilirler. Bu bir ruhsattır. Tutamadıkları oruçları doğum sonrası kaza ederler. Doktor tavsiyesine uyulması önerilir.",
+    kaynak_url: KAYNAK.mahiyet,
+    seo_title: "Hamilelikte Oruç Tutmak Gerekir Mi? - Diyanet Fetvası",
+    seo_description:
+      "Hamilelikte oruç tutmak zorunlu mu? Hamile kadınlar zarar endişesi halinde oruç tutmayabilir.",
+  },
+  {
+    slug: "asi-olmak-orucu-bozar-mi",
+    kategori_kodu: "asi_olmak",
+    baslik: "Aşı Olmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Aşı yaptırmak orucu bozmaz. Kas içine veya deri altına yapılan aşılar beslenme amaçlı olmadığından orucu etkilemez. Grip aşısı, Covid aşısı ve diğer aşılar bu kapsamdadır.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Aşı Olmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Aşı olmak orucu bozar mı? Aşı yaptırmak orucu bozmaz.",
+  },
+  {
+    slug: "insulin-ignesi-orucu-bozar-mi",
+    kategori_kodu: "insulin_ignesi",
+    baslik: "İnsülin İğnesi Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "İnsülin iğnesi vurmak orucu bozmaz. İnsülin deri altına yapılan bir ilaçtır ve beslenme amaçlı değildir. Şeker hastaları ihtiyaç halinde oruçluyken insülin kullanabilir. Ancak oruç tutmak sağlığa zarar veriyorsa tutmama ruhsatı vardır.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "İnsülin İğnesi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "İnsülin iğnesi orucu bozar mı? İnsülin iğnesi vurmak orucu bozmaz.",
+  },
+  {
+    slug: "fitil-kullanmak-orucu-bozar-mi",
+    kategori_kodu: "fitil_kullanmak",
+    baslik: "Fitil Kullanmak Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Fitil (supozituvar) kullanmanın orucu bozup bozmadığı konusunda mezhepler arasında görüş ayrılığı vardır. Hanefi mezhebine göre fitil kullanmak orucu bozar. Şafii mezhebine göre ise bozma konusunda farklı değerlendirmeler yapılmıştır.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Fitil Kullanmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Fitil kullanmak orucu bozar mı? Bu konuda mezheplere göre farklı görüşler vardır.",
+  },
+  {
+    slug: "dil-alti-sprey-orucu-bozar-mi",
+    kategori_kodu: "dil_alti_sprey",
+    baslik: "Dil Altı Sprey / İlaç Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Dil altı sprey ve tablet kullanmanın orucu bozup bozmadığı tartışmalıdır. Dil altından emilen ilaçlar mideye değil doğrudan kana karışır. Ancak bir kısmının tükürükle yutulması mümkündür. Kalp hastaları gibi zorunlu durumlarda sağlık önceliklidir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Dil Altı Sprey Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Dil altı sprey veya ilaç orucu bozar mı? Bu konuda farklı görüşler bulunmaktadır.",
+  },
+  {
+    slug: "oksijen-maskesi-orucu-bozar-mi",
+    kategori_kodu: "oksijen_maskesi",
+    baslik: "Oksijen Maskesi Kullanmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Oksijen maskesi kullanmak orucu bozmaz. Oksijen bir gaz olup gıda niteliğinde değildir. Solunum güçlüğü çeken hastalar oruçluyken oksijen maskesi kullanabilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Oksijen Maskesi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Oksijen maskesi orucu bozar mı? Oksijen maskesi kullanmak orucu bozmaz.",
+  },
+  {
+    slug: "kan-sekeri-olcmek-orucu-bozar-mi",
+    kategori_kodu: "kan_sekeri_olcmek",
+    baslik: "Kan Şekeri Ölçmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Parmak ucundan kan şekeri ölçmek orucu bozmaz. Bu işlem az miktarda kan alımı gerektirdiğinden ve sindirim sistemini etkilemediğinden orucu bozmaz. Şeker hastaları oruçluyken kan şekerlerini rahatça ölçebilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Kan Şekeri Ölçmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Kan şekeri ölçmek orucu bozar mı? Kan şekeri ölçümü orucu bozmaz.",
+  },
+  {
+    slug: "mr-rontgen-orucu-bozar-mi",
+    kategori_kodu: "mr_rontgen",
+    baslik: "MR / Röntgen Çektirmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "MR (manyetik rezonans) veya röntgen çektirmek orucu bozmaz. Bu görüntüleme yöntemleri vücuda herhangi bir madde girişi sağlamaz. Ancak kontrastlı MR'da damardan verilen kontrast madde konusunda ihtilaf olabilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "MR Röntgen Çektirmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "MR veya röntgen çektirmek orucu bozar mı? Görüntüleme yöntemleri orucu bozmaz.",
+  },
+  {
+    slug: "tomografi-orucu-bozar-mi",
+    kategori_kodu: "tomografi",
+    baslik: "Tomografi Çektirmek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Tomografi (BT) çektirmek orucu bozmaz. Kontrastsız tomografi herhangi bir madde girişi gerektirmez. Kontrastlı tomografide damardan verilen madde ise beslenme amaçlı olmadığından orucu bozmaz.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Tomografi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Tomografi çektirmek orucu bozar mı? Tomografi orucu bozmaz.",
+  },
+  {
+    slug: "ameliyat-olmak-orucu-bozar-mi",
+    kategori_kodu: "ameliyat_olmak",
+    baslik: "Ameliyat Olmak Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Ameliyat sırasında genel anestezi uygulanması, damardan sıvı verilmesi gibi durumlar orucu bozar. Lokal anestezi ile yapılan küçük cerrahi müdahaleler ise tek başına orucu bozmaz. Ameliyat gereken durumlarda sağlık önceliklidir, oruç daha sonra kaza edilir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Ameliyat Olmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Ameliyat olmak orucu bozar mı? Ameliyatın türüne göre değişir.",
+  },
+  {
+    slug: "anestezi-orucu-bozar-mi",
+    kategori_kodu: "anestezi",
+    baslik: "Anestezi Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Lokal anestezi (bölgesel uyuşturma) orucu bozmaz. Genel anestezide ise damardan ilaç verildiği ve solunum tüpü kullanıldığı için oruç bozulur. Diş tedavilerinde yapılan lokal anestezi orucu bozmaz.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Anestezi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Anestezi orucu bozar mı? Lokal anestezi bozmaz, genel anestezi bozar.",
+  },
+  {
+    slug: "goz-ameliyati-orucu-bozar-mi",
+    kategori_kodu: "goz_ameliyati",
+    baslik: "Göz Ameliyatı Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Göz ameliyatı (lazer, katarakt vb.) orucu bozmaz. Göze uygulanan işlemler sindirim sistemini etkilemez. Lokal anestezi ile yapılan göz ameliyatları oruçluyken yaptırılabilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Göz Ameliyatı Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Göz ameliyatı orucu bozar mı? Göz ameliyatı orucu bozmaz.",
+  },
+  {
+    slug: "kulak-temizleme-orucu-bozar-mi",
+    kategori_kodu: "kulak_temizleme",
+    baslik: "Kulak Temizleme / Kulak Yıkama Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Kulak temizleme veya kulak yıkama işlemi orucu bozmaz. Kulak kanalından giren su veya sıvı sindirim sistemine ulaşmaz. Ancak kulak zarı delik olan kişilerde durum farklılık gösterebilir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Kulak Temizleme Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Kulak temizleme ve yıkama orucu bozar mı? Kulak temizleme orucu bozmaz.",
+  },
+  {
+    slug: "alerji-testi-orucu-bozar-mi",
+    kategori_kodu: "alerji_testi",
+    baslik: "Alerji Testi Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Deri üzerinden yapılan alerji testleri orucu bozmaz. Cildin altına çok az miktarda alerjen madde uygulanması sindirim sistemini etkilemez. Kan yoluyla yapılan alerji testleri de orucu bozmaz.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Alerji Testi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Alerji testi orucu bozar mı? Alerji testi orucu bozmaz.",
+  },
+  {
+    slug: "terleme-orucu-bozar-mi",
+    kategori_kodu: "terleme",
+    baslik: "Terlemek Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Terlemek orucu bozmaz. Terleme vücudun doğal bir fonksiyonudur ve vücuttan madde çıkışıdır. Sıcak havada, spor yaparken veya hamam/saunada terlemek orucu etkilemez.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Terlemek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Terlemek orucu bozar mı? Terlemek orucu bozmaz.",
+  },
+  {
+    slug: "agiz-kokusu-spreyi-orucu-bozar-mi",
+    kategori_kodu: "agiz_kokusu_spreyi",
+    baslik: "Ağız Kokusu Spreyi Orucu Bozar Mı?",
+    hukum: "bozar",
+    aciklama:
+      "Ağız içine sıkılan sprey orucu bozar. Spreyin içeriği ağız yoluyla vücuda girer ve boğaza ulaşabilir. Ağız kokusunu gidermek için oruçluyken misvak veya diş fırçası tercih edilmelidir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Ağız Kokusu Spreyi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Ağız spreyi orucu bozar mı? Ağız içine sıkılan sprey orucu bozar.",
+  },
+  {
+    slug: "orucu-erken-acmak",
+    kategori_kodu: "orucu_erken_acmak",
+    baslik: "Orucu Erken Açmak (Vaktinden Önce) Ne Gerektirir?",
+    hukum: "bozar",
+    aciklama:
+      "İftar vaktinden önce orucu açmak orucu bozar. Yanılarak veya saati yanlış hesaplayarak erken açılırsa kaza gerekir. Bilerek ve kasıtlı olarak iftar vaktinden önce oruç bozulursa hem kaza hem keffaret gerekir.",
+    kaynak_url: KAYNAK.keffaret,
+    seo_title: "Orucu Erken Açmak Ne Gerektirir? - Diyanet Fetvası",
+    seo_description:
+      "Orucu erken açmak orucu bozar mı? İftar vaktinden önce orucu açmak bozar.",
+  },
+  {
+    slug: "sahura-kalkmamak-orucu-bozar-mi",
+    kategori_kodu: "sahura_kalkmamak",
+    baslik: "Sahura Kalkmamak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Sahura kalkmamak orucu bozmaz. Sahur yemek sünnettir, farz değildir. Sahur yemeden de oruç tutulabilir ve oruç geçerlidir. Ancak sahur yapmak oruç tutmayı kolaylaştırdığından tavsiye edilir.",
+    kaynak_url: KAYNAK.mahiyet,
+    seo_title: "Sahura Kalkmamak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Sahura kalkmamak orucu bozar mı? Sahur yemeden tutulan oruç geçerlidir.",
+  },
+  {
+    slug: "disariya-tukurmek-orucu-bozar-mi",
+    kategori_kodu: "disariya_tukurmek",
+    baslik: "Sürekli Tükürmek Gerekir Mi? Tükürük Biriktirip Yutmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Oruçluyken sürekli tükürmek gerekmez. Normal tükürüğü yutmak orucu bozmaz. Ancak ağızda biriktirilen tükürüğü toplu olarak yutmak mekruhtur. Tükürüğü dışarı atmak zorunlu değildir, doğal şekilde yutmak orucu etkilemez.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Tükürük Biriktirip Yutmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Oruçluyken tükürmek gerekir mi? Normal tükürük yutmak orucu bozmaz.",
+  },
+  {
+    slug: "aglamak-orucu-bozar-mi",
+    kategori_kodu: "aglamak",
+    baslik: "Ağlamak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Ağlamak orucu bozmaz. Gözyaşı dökmek vücudun doğal bir tepkisidir ve sindirim sistemini etkilemez. Dua ederken, Kur'an okurken veya üzüntüden ağlamak orucu bozmaz.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Ağlamak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Ağlamak orucu bozar mı? Ağlamak orucu bozmaz.",
+  },
+  {
+    slug: "opusmek-orucu-bozar-mi",
+    kategori_kodu: "kus_yuzu_opmek",
+    baslik: "Öpüşmek / Eşini Öpmek Orucu Bozar Mı?",
+    hukum: "mezhebe_gore_degiser",
+    aciklama:
+      "Eşini öpmek tek başına orucu bozmaz, ancak şehvete yol açacak şekilde öpüşmek mekruhtur. Öpüşme sırasında tükürük veya herhangi bir madde yutulursa oruç bozulur. Nefsine hakim olamayacak kişilerin öpüşmekten kaçınması tavsiye edilir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Öpüşmek Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Öpüşmek orucu bozar mı? Eşini öpmek tek başına orucu bozmaz ancak dikkat edilmelidir.",
+  },
 ];
 
 async function seed() {

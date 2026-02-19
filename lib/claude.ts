@@ -78,7 +78,11 @@ Here are the valid category codes:
 - sahura_kalkmamak
 - disariya_tukurmek
 - aglamak
-- kus_yuzu_opmek
+- opusmek_opmek
+
+Important disambiguation rules:
+- opusmek_opmek: öpmek, öpüşmek, dudak dudağa, eşini öpmek, sevişmek (without intercourse)
+- cinsel_iliski: cinsel ilişki, cinsel birliktelik, ilişkiye girmek, cima
 
 Return only the category code. Nothing else. No explanation.
 

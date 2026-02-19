@@ -836,7 +836,7 @@ const SEED_DATA = [
   },
   {
     slug: "opusmek-orucu-bozar-mi",
-    kategori_kodu: "kus_yuzu_opmek",
+    kategori_kodu: "opusmek_opmek",
     baslik: "Öpüşmek / Eşini Öpmek Orucu Bozar Mı?",
     hukum: "mezhebe_gore_degiser",
     aciklama:

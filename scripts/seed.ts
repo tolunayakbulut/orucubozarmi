@@ -354,6 +354,66 @@ const SEED_DATA = [
     seo_description:
       "Ağda yapmak orucu bozar mı? Ağda yapmak orucu bozmaz.",
   },
+  {
+    slug: "diyet-takviye-orucu-bozar-mi",
+    kategori_kodu: "diyet_takviye",
+    baslik: "Diyet Takviyesi / Vitamin Almak Orucu Bozar Mı?",
+    hukum: "bozar",
+    aciklama:
+      "Ağızdan alınan diyet takviyeleri, vitamin hapları ve gıda destekleri orucu bozar. Bunlar yiyecek-içecek hükmünde olduğundan oruçlu iken kullanılmamalıdır. İhtiyaç halinde sahur ve iftar arasında kullanılabilir.",
+    kaynak_url: KAYNAK.kaza,
+    seo_title: "Diyet Takviyesi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Diyet takviyesi ve vitamin almak orucu bozar mı? Ağızdan alınan takviyeler orucu bozar.",
+  },
+  {
+    slug: "mide-asidi-orucu-bozar-mi",
+    kategori_kodu: "mide_asidi",
+    baslik: "Mide Asidi / Mide Yanması Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Mide yanması veya mide asidinin yemek borusuna yükselmesi (reflü) orucu bozmaz. Bu durum istemsiz olarak gerçekleştiğinden orucu etkilemez. Ancak ağza gelen mide içeriğini geri yutmak konusunda dikkatli olunmalıdır.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Mide Asidi Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Mide asidi ve reflü orucu bozar mı? İstemsiz mide yanması orucu bozmaz.",
+  },
+  {
+    slug: "dis-eti-kanamasi-orucu-bozar-mi",
+    kategori_kodu: "dis_eti_kanamasi",
+    baslik: "Diş Eti Kanaması Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Diş eti kanaması orucu bozmaz. Ancak kanın tükürükle birlikte yutulması durumunda, eğer kan miktarı tükürükten fazla ise oruç bozulur. Kan tükürüğe oranla az ise oruç bozulmaz.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Diş Eti Kanaması Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Diş eti kanaması orucu bozar mı? Diş eti kanaması tek başına orucu bozmaz.",
+  },
+  {
+    slug: "ruya-gorme-orucu-bozar-mi",
+    kategori_kodu: "ruya_gorme",
+    baslik: "Rüyada İhtilam Olmak Orucu Bozar Mı?",
+    hukum: "bozmaz",
+    aciklama:
+      "Uykuda ihtilam olmak (rüyada cünüp olmak) orucu bozmaz. Bu durum kişinin iradesi dışında gerçekleştiğinden orucu etkilemez. Uyandıktan sonra gusül abdesti alınması yeterlidir, oruç geçerlidir.",
+    kaynak_url: KAYNAK.bozmayan,
+    seo_title: "Rüyada İhtilam Olmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Rüyada ihtilam olmak orucu bozar mı? Uykuda ihtilam olmak orucu bozmaz.",
+  },
+  {
+    slug: "misir-patlatmak-orucu-bozar-mi",
+    kategori_kodu: "misir_patlatmak",
+    baslik: "Mısır Patlatmak (Popcorn) Orucu Bozar Mı?",
+    hukum: "bozar",
+    aciklama:
+      "Mısır patlatmak kendi başına orucu bozmaz, ancak patlamış mısır yemek orucu bozar. Herhangi bir yiyecek tüketmek orucu bozar ve kaza gerektirir. Oruçluyken yiyecek hazırlamak ise orucu bozmaz.",
+    kaynak_url: KAYNAK.keffaret,
+    seo_title: "Mısır Patlatmak Orucu Bozar Mı? - Diyanet Fetvası",
+    seo_description:
+      "Mısır patlatmak orucu bozar mı? Patlamış mısır yemek orucu bozar.",
+  },
 ];
 
 async function seed() {
